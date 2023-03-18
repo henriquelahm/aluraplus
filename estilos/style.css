@@ -86,7 +86,7 @@ body{
     color: var(--cinza-secundario);
 }
 .texto_combo {
-    margin-left: 5em;
+    margin-left: 2em;
     align-items: center;
 }
 .botao__secundario {
@@ -188,6 +188,7 @@ body{
     }
     .dispositivos__lista{
         display: block;
+        text-align: center;
     }
     .rodape__lista {
         display: block;

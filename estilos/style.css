@@ -167,14 +167,14 @@ body{
         width: 50vw;
     }
     .container__caixa{
-        margin: 2em 0 2em 3em;
+        margin: 1em 0 1em 3em;
     }
     .secundario {
-        margin: 0;
+        margin: 50;
         text-align: center;
     }
     .secundario__imagem {
-        width: 80vw;
+        width: 70vw;
     }
     .terceario {
         margin: 0;
@@ -186,10 +186,19 @@ body{
     .quarto__imagem {
         margin-top: 10em;
         text-align: center;
+        margin-bottom: 3em;
     }
     .dispositivos__lista {
         display: block;
         text-align: center;
-        margin-left: 0em;
+        margin-left: 1em;
+    }
+    .dispositivos__titulo {
+    }
+    .lista__item {
+        margin-left: 2em;
+    }
+    .rodape__lista {
+        display: block;
     }
 }

@@ -167,14 +167,14 @@ body{
         width: 50vw;
     }
     .container__caixa{
-        margin: 1em 0 1em 3em;
+        margin: 3em 0 0 0;
     }
     .secundario {
-        margin: 50;
         text-align: center;
     }
     .secundario__imagem {
         width: 70vw;
+        margin-bottom: 30px;
     }
     .terceario {
         margin: 0;
@@ -191,14 +191,22 @@ body{
     .dispositivos__lista {
         display: block;
         text-align: center;
-        margin-left: 1em;
-    }
-    .dispositivos__titulo {
+        margin-left: 2.5em;
     }
     .lista__item {
-        margin-left: 2em;
+        margin-left: 50px;
     }
     .rodape__lista {
         display: block;
+    }
+    .descricao__titulo {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .dispositivos__titulo {
+        font-size: 40px;
+    }
+    .rodape__texto {
+        margin-bottom: 3em;
     }
 }

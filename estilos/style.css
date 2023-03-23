@@ -72,14 +72,15 @@ body{
 }
 .secundario {
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     margin: 0 5em;
 }
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .descricao__texto {
@@ -91,8 +92,8 @@ body{
 }
 .botao__secundario {
     display: inline-block;
-    margin: 0 0 0 18em;
-    align-items: center;
+    text-align: center;
+    margin-left: 15em;
 }
 .container__descricao {
     padding: 1em;
@@ -159,9 +160,16 @@ body{
     color: var(--cor-de-fundo);
 }
 @media screen and (max-width: 768px) {
+    .body {
+        margin: 0;
+        padding: 0;
+    }
     .container {
         display: block;
         background-image: none;
+    }
+    .principal {
+        height: 30em;
     }
     .container__imagem {
         width: 50vw;
@@ -169,19 +177,24 @@ body{
     .container__caixa{
         margin: 3em 0 0 0;
     }
+    .assinatura {
+        text-align: center;
+        margin-bottom: 3px;
+        height: 45em;
+    }
     .secundario {
         text-align: center;
+        height: 40em;
     }
     .secundario__imagem {
         width: 70vw;
         margin-bottom: 30px;
     }
-    .terceario {
-        margin: 0;
-        text-align: center;
-    }
     .container__botao {
         margin: 1em;
+    }
+    .container__descricao {
+        text-align: center;
     }
     .quarto__imagem {
         margin-top: 10em;

@@ -72,15 +72,14 @@ body{
 }
 .secundario {
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     margin: 0 5em;
 }
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.5em;
-    text-align: center;
+    margin-bottom: 0.1em;
 }
 
 .descricao__texto {
@@ -92,8 +91,8 @@ body{
 }
 .botao__secundario {
     display: inline-block;
-    text-align: center;
-    margin-left: 15em;
+    margin: 0 0 0 18em;
+    align-items: center;
 }
 .container__descricao {
     padding: 1em;
@@ -160,57 +159,54 @@ body{
     color: var(--cor-de-fundo);
 }
 @media screen and (max-width: 768px) {
-    .body {
-        margin: 0;
-        padding: 0;
-    }
     .container {
         display: block;
         background-image: none;
-    }
-    .principal {
-        height: 30em;
+        margin: 0;
+        padding: 0;
     }
     .container__imagem {
         width: 50vw;
     }
     .container__caixa{
-        margin: 3em 0 0 0;
-    }
-    .assinatura {
-        text-align: center;
-        margin-bottom: 3px;
-        height: 45em;
+        margin: 3em;
     }
     .secundario {
         text-align: center;
-        height: 40em;
     }
     .secundario__imagem {
         width: 70vw;
         margin-bottom: 30px;
     }
+    .terceario {
+        margin: 0;
+        text-align: center;
+    }
     .container__botao {
         margin: 1em;
-    }
-    .container__descricao {
-        text-align: center;
     }
     .quarto__imagem {
         margin-top: 10em;
         text-align: center;
         margin-bottom: 3em;
     }
+    .dispositivos {
+        margin: 0;
+        padding: 0;
+    }
     .dispositivos__lista {
         display: block;
-        text-align: center;
-        margin-left: 2.5em;
+        margin: 1em;
     }
     .lista__item {
-        margin-left: 50px;
+        text-align: center;
     }
     .rodape__lista {
         display: block;
+        align-items: center;
+    }
+    .rodape__logo {
+        align-items: center;
     }
     .descricao__titulo {
         font-size: 30px;
@@ -222,4 +218,5 @@ body{
     .rodape__texto {
         margin-bottom: 3em;
     }
+   
 }
